@@ -46,7 +46,7 @@ function Score() {
     setFinalScore(calculus)
 
     //Récupère les utilisateurs
-    fetch(`https://qpuc-backend.herokuapp.com/api/auth`)
+    fetch(`https://orange-pond-007deb103.5.azurestaticapps.net/api/auth`)
       .then((response) => response.json())
       .then((requestData) => {
         for (let i = 0; i < requestData.length; i++) {
@@ -57,7 +57,7 @@ function Score() {
               //Si le score de cette partie est supérieur au highscore enregistré
 
               //On le met à jour
-              fetch(`https://qpuc-backend.herokuapp.com/api/auth/${id[0]}`, {
+              fetch(`https://orange-pond-007deb103.5.azurestaticapps.net/api/auth/${id[0]}`, {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({

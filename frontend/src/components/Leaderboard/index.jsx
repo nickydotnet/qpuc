@@ -7,7 +7,7 @@ function Table() {
 
   //On récupère tous les utilisateurs au premier appel du composant
   useEffect(() => {
-    fetch(`https://qpuc-backend.herokuapp.com/api/auth`)
+    fetch(`https://orange-pond-007deb103.5.azurestaticapps.net/api/auth`)
       .then((response) => response.json())
       .then((requestData) => {
         setUser(requestData)
