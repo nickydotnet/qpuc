@@ -1,0 +1,15 @@
+input::placeholder {
+  color: #355f9f;
+  padding-left: 10px;
+  font-size: 20px;
+  font-family: 'Changa One', 'sans-serif';
+}
+
+input[type='text'] {
+  font-size: 24px;
+  font-family: 'Changa One', 'sans-serif';
+}
+
+input[type='password'] {
+  font-size: 24px;
+}
