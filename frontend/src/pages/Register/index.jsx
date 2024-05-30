@@ -43,7 +43,7 @@ function Register() {
     if (username.length >= 3 && password.length >= 5) {
       //On utilise une requête POST pour écrire l'username et le mdp dans la bdd
       setDataLoading(true)
-      fetch('https://orange-pond-007deb103.5.azurestaticapps.net/api/auth/signup', {
+      fetch('https://salmon-moss-0fb9c7203.5.azurestaticapps.net/api/auth/signup', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

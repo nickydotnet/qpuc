@@ -75,7 +75,7 @@ function Gagnants9() {
     setDataLoading(true)
     //On récupère toutes les questions
 
-    fetch(`https://orange-pond-007deb103.5.azurestaticapps.net/api/question/`)
+    fetch(`https://salmon-moss-0fb9c7203.5.azurestaticapps.net/api/question/`)
       .then((response) => response.json())
       .then((requestData) => {
         //On génère un entier aléatoire avec comme limite le nombre de réponses

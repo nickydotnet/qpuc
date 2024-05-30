@@ -51,7 +51,7 @@ function Home() {
     } else {
       //Sinon
       setDataLoading(true)
-      fetch(`https://orange-pond-007deb103.5.azurestaticapps.net/api/auth`) //On récupère les utilisateurs de la bdd
+      fetch(`https://salmon-moss-0fb9c7203.5.azurestaticapps.net/api/auth`) //On récupère les utilisateurs de la bdd
         .then((response) => response.json())
         .then((requestData) => {
           //On parcourt la liste des utilisateurs

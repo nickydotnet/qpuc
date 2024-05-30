@@ -96,7 +96,7 @@ function FaceAFace() {
     setDataLoading(true)
     //On récupère les questions
 
-    fetch(`https://orange-pond-007deb103.5.azurestaticapps.net/api/question/`)
+    fetch(`https://salmon-moss-0fb9c7203.5.azurestaticapps.net/api/question/`)
       .then((response) => response.json())
       .then((requestData) => {
         let questionNumber = Math.floor(Math.random() * requestData.length)

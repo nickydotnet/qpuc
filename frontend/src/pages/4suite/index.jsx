@@ -80,7 +80,7 @@ function Suite4() {
   //useEffect appelé dès que le joueur répond à une question qu'il ait bon ou faux
   useEffect(() => {
     setDataLoading(true)
-    fetch(`https://orange-pond-007deb103.5.azurestaticapps.net/api/question/`)
+    fetch(`https://salmon-moss-0fb9c7203.5.azurestaticapps.net/api/question/`)
       .then((response) => response.json())
       .then((requestData) => {
         //On choisi une question au hasard

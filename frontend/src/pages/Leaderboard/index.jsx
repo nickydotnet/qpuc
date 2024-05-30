@@ -15,7 +15,7 @@ function Leaderboard() {
 
   //On récupère tous les utilisateurs et on compte leur nombre pour adapter la taille du fond du tableau en pixel
   useEffect(() => {
-    fetch(`https://orange-pond-007deb103.5.azurestaticapps.net/api/auth`) //On récupère les utilisateurs de la bdd
+    fetch(`https://salmon-moss-0fb9c7203.5.azurestaticapps.net/api/auth`) //On récupère les utilisateurs de la bdd
       .then((response) => response.json())
       .then((requestData) => {
         //On défini le nombre de pseudo comme le nombre d'utilisateurs inscrits + 1 (pour la ligne pseudo/score)
