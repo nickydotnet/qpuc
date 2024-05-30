@@ -5,7 +5,11 @@ import { FooterContainer, Repository, Credits, GitHub } from './style'
 function Footer() {
   return (
     <FooterContainer>
-      
+      <Credits></Credits>
+      <Repository>
+        <GitHub to="//github.com/EvanJannot/QPUC" $isFullLink target="_blank">
+        </GitHub>
+      </Repository>
     </FooterContainer>
   )
 }
